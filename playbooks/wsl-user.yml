@@ -1,0 +1,14 @@
+--
+- name: Create users
+  hosts: wsl
+  become: true
+
+  tasks:
+    - user: 
+        name: damian
+        uid: 1000
+        shell: /bin/bash
+    - user:
+        name: blafoo
+        uid: 1002
+        shell: /bin/bash

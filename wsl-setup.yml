@@ -1,0 +1,8 @@
+---
+- name: Setup WSL environment
+  hosts: localhost
+  connection: local
+  become: true
+
+- import_playbook: playbooks/wsl-apt.yml
+#- import_playbook: playbooks/wsl-user.yml
