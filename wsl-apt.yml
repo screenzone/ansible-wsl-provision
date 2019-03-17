@@ -1,6 +1,6 @@
 ---
 - name: Install packages in WSL
-  hosts: all
+  hosts: wsl
   become: true
 
   tasks:

@@ -1,6 +1,6 @@
 ---
 - name: Create users
-  hosts: all
+  hosts: wsl
   become: true
 
   tasks:

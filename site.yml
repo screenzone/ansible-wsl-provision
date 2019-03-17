@@ -1,7 +1,6 @@
 ---
 - name: Setup WSL environment
-  hosts: all
-  connection: local
+  hosts: wsl
   become: true
 
 - import_playbook: wsl-apt.yml
