@@ -1,6 +1,6 @@
 --
 - name: Create users
-  hosts: wsl
+  hosts: localhost
   become: true
 
   tasks:
