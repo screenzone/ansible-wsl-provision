@@ -1,1 +1,6 @@
 ---
+apt_install_packages:
+ - htop
+ - makepasswd
+ - python3-pip
+ - keychain
